@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map-id,
+body,
+html {
+  height: 100%;
+}
+
+.legend {
+  background-color: white;
+  padding: 5px;
+}
+.legend > div {
+  display: flex;
+  align-items: center;
+}
+.legend-color {
+  height: 10px;
+  width: 10px;
+  margin-right: 4px;
+}
